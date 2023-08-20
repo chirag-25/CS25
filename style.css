@@ -65,6 +65,15 @@ a:hover {
 
 }
 
+/* rounded profile pic */
+.profile-pic{
+  border-radius: 50%;
+  /* height: 6rem; */
+  /* width: 6rem; */
+  margin-right: 1rem;
+  /* border: 1px solid black; */
+}
+
 .logo-img{
   height: 6rem;
   /* width: 2rem; */
@@ -325,6 +334,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  transform: scaleX(-1);
 }
 
 .arrow {
@@ -437,8 +447,9 @@ article .icon {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 0.5rem;
+  gap: 1rem;
 }
 
 .contact-info-container {
