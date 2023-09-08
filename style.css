@@ -373,7 +373,10 @@ section {
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.experience-sub-content{
   margin-bottom: 2rem;
 }
 
@@ -402,6 +405,10 @@ article {
 
 article .icon {
   cursor: default;
+}
+.logo-img{
+  width: 60%;
+  margin-bottom: 1rem;
 }
 
 /* PROJECTS SECTION */

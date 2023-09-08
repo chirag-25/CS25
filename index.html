@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- navigation pannel -->
   <nav id="desktop-nav">
     <a href="https://chirag-25.github.io/CS25/">
       <div ><img src="assets/logo.png" alt="CS25" class="logo-img"></div>
@@ -47,6 +48,7 @@
       </div>
     </div>
   </nav>
+  <!-- Profile Section -->
   <section id="profile">
     <div class="section__pic-container">
         <img src="./assets/profile_pic.jpeg" alt="Chirag profile picture" class="profile-pic" />
@@ -57,7 +59,7 @@
       <p class="section__text__p2" id="text"><span id="auto-type"></span></p>
       <!-- <span id="text"></span> -->
       <div class="btn-container">
-        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
           Download CV
         </button>
         <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -65,7 +67,7 @@
         </button>
       </div>
       <div id="socials-container">
-          <a href="https://www.linkedin.com/in/chirag-sarda-969293214/" target="_blank">
+          <a href="https://www.linkedin.com/in/chiragsarda25/" target="_blank">
             <img src="./assets/linkedin.png" alt="My Github profile" class="icon" />
           </a>
           <a href="https://github.com/chirag-25" target="_blank">
@@ -74,6 +76,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Abuot section -->
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
@@ -95,14 +99,18 @@
           </div>
         </div>
         <div class="text-container">
-          <p>
-            Hello! I'm Chirag, a programming enthusiast who finds joy in crafting code. My passion revolves around Artificial Intelligence, where I tinker with algorithms to create clever solutions. In my free time, I'm all about web development and digital design, turning ideas into online realities. Away from the tech world, I'm a foodie on a mission to taste every cuisine out there, and I'm an avid anime watcher, drawn in by captivating stories and amazing animation. I've got a serious thirst for knowledge, always excited to learn new things. Challenges are my playground for growth, and I'm all about embracing the unfamiliar to expand my skills. Join me on this exciting journey where technology, creativity, and curiosity collide!
-          </p>
+          <p>🚀 Programming Enthusiast | AI Innovator</p>
+          <p> 🌐 Web Developer & Digital Designer</p>
+          <p>🍔 Foodie Explorer | Anime Aficionado</p>
+          <p>🧠 Thirst for Knowledge | Embracing Challenges</p>
+          <p>🌟 Join Me in the World of Tech & Creativity!</p>
         </div>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
+
+  <!-- Experience Section -->
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
@@ -110,174 +118,186 @@
       <div class="about-containers">
         <div class="details-container">
           <a href="https://in.mathworks.com/" target="_blank" rel="noopener noreferrer"><h2 class="experience-sub-title">MathWorks India Private Limited</h2></a>
+          <img src="/assets/MathWorks-logo.jpg" alt="Mathworks_logo" class="logo-img">
+
           <p><strong>Engineering Development Group Intern</strong></p>
           <p><em>
             MathWorks - Developing mathematical computing software</em></p>
           <p>May 2023 - July 2023</p> <br>
-          <p> At MathWorks I  had the privilege of immersing myself in challenging projects while exploring my areas of interest. A significant contribution I made was in a project focused on exporting Functional Mockup Units (FMUs). I successfully implemented a feature enabling the production of log messaging from FMU units during the export process in Simulink. My time at MathWorks not only enhanced my skill set but also allowed me to contribute to groundbreaking achievements in the realm of engineering and computing.
+          <p> Upgraded FMU export to FMI 3.0 standards, aligning with industry norms. <br>Successfully integrated log messaging capabilities, stream liningthe export process of standalone FMUs within the Simulink environment. <br>Collaborated with the Quality Engineering team to write unit tests, using MATLAB for various fea- tures, enhancing software quality and functionality.
             </p>
 
         </div>
         <div class="details-container">
           <a href="https://www.exprto.com/" target="_blank" rel="noopener noreferrer"><h2 class="experience-sub-title">Exprto</h2></a>
+          <img src="/assets/exprto_logo.png" alt="exprto logo" class="logo-img" >
           <!-- https://www.exprto.com/ -->
           <p><strong>Jee Mentor Mentor</strong></p>
           <p><em>Exprto - Connecting JEE and NEET Aspirants to rankers</em></p>
           <p>October 2021 - March 2023</p> <br>
-          <p> My expertise in Mathematics allowed me to share effective strategies and techniques that led numerous JEE aspirants to success. I collaborated closely with students, providing them with personalized guidance that tailored to their learning styles and needs. Through my tenure, I've been part of an inspiring journey, witnessing students grasp complex concepts and gain confidence in their abilities. I take pride in fostering an environment where learning is engaging and enjoyable.</p>
+          <p> My expertise in Mathematics allowed me to share effective strategies and techniques that led numerous JEE aspirants to success. <br>
+            I collaborated closely with students, providing them with personalized guidance that tailored to their learning styles and needs. <br>Through my tenure, I've been part of an inspiring journey, witnessing students grasp complex concepts and gain confidence in their abilities. </p>
         </div>
       </div>
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
 
+  <!-- Projects -->
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
 
     <div class="slider-btn">
-      <button class="category-button" data-category="ongoing">Ongoing</button>
       <button class="category-button" data-category="ml">ML</button>
       <button class="category-button" data-category="software">Software</button>
+      <button class="category-button" data-category="other">Other</button>
     </div>
-    <div class="experience-details-container slider-project" data-categories="ongoing">
-      <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Ongoing</h2>
+    <!-- Other -->
+    <div class="experience-details-container slider-project" data-categories="other" style="display: none">
+      <div class="about-containers" >
+        <!-- Modern steam Engine -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">Modern Steam Engine</h2>
+          <p class="experience-sub-content"><strong>Led the team of 10</strong> people to design and build a model of a <strong>Modern Steam Engine</strong> inspired by <strong>Fast and Furious</strong> using <strong>Autodesk Inventor</strong>. <br>
+          The project involved drafting proposals, creating basic freehand sketches, and developing Inventor models and teamwork.
+            .</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Project-Assembler-and-Disassembler'">
               Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            </button> -->
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://iitgnacin-my.sharepoint.com/:v:/g/personal/20110047_iitgn_ac_in/ESMkavIDXcxEnMwZ2uWOQ1IBlEicFnJKlu07KEku-9VRPg?e=bRjAlT'">
               Live Demo
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Ongoing</h2>
+
+        <!-- Spirometer -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">Spirometer</h2>
+          <p class="experience-sub-content">Designed Spirometer with <strong>Autodesk Fusion 360, employing 3D printing & precision acrylic cutting</strong>.
+            Enhanced functionality with <strong>integrated sensors</strong> to capture and record <strong>lung capacity data</strong>, enhancing the Spiorometer's functionality and usability as a vital <strong>healthcare device</strong>.</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Project-Assembler-and-Disassembler'">
               Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            </button> -->
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1pV1-rzzB9Tp7eQaQPB-8ClpxAnkSd-46/view?usp=drive_link'">
               Live Demo
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Ongoing</h2>
+
+        <!-- Neev iitgn Website -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">Neev IITGN Website</h2>
+          <p class="experience-sub-content"><strong>Led a team of 11</strong> members in developing Neev organization's website. Designed and implemented the backend using <strong>MySQL and Python Flask</strong> while utilizing <strong>Bootstrap, HTML, CSS, and JavaScript</strong> for frontend development. 
+          Designed the <strong>relational database</strong> with constraints to optimize data management and security.</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Assignment3_DBMS.git'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Project-Assembler-and-Disassembler'">
               Live Demo
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Project Two -->
-    <div class="experience-details-container slider-project" data-categories="ml" style="display: none;">
+    <!-- Project ML -->
+    <div class="experience-details-container slider-project" data-categories="ml">
       <div class="about-containers">
+        <!-- Movie Recommendation System -->
         <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">ML</h2>
+          <h2 class="experience-sub-title project-title">Movie Recommendation System</h2>
+          <p class="experience-sub-content"><strong>Led </strong>the team of three in building a comprehensive movie recommendation system with diverse algorithms like <strong>Top-N, Content-based, Collaborative, Hybrid on MovieLens 100K dataset </strong>. Explored <strong>DNN</strong> based models to capture intricate user-item relationships for improved recommendations. </p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Movie-Recommendation-System'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Movie-Recommendation-System'">
+              Live Demo
+            </button> -->
+          </div>
+        </div>
+        
+        <!-- India Economic History -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">IndiaEconHistory</h2>
+          <p class="experience-sub-content">Conducted <strong> Exploratory Data Analysis(EDA) </strong> on India's economic history, analyzing <strong> sector-wise GDP, exchange rates, foreign trade, and payment systems</strong>, revealing India's economic evolution. Provided an overview of India's economic transformation, emphasizing policy decisions in driving <strong> growth and stability</strong></p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/IndiaEconHistory'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://chirag-25.github.io/IndiaEconHistory/'">
               Live Demo
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">ML</h2>
+        
+        <!-- Neural Network Simulation Playground -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">ANN Simulation Playground</h2>
+          <p class="experience-sub-content">Developed an <strong>interactive Neural Network Simulation Playground</strong> in <strong>Streamlit</strong>, empowering users to customize input datasets, <strong>select basis</strong>  functions, and adjust critical parameters like <strong>learning rate, hidden layers, neuron count, dropout rates and epochs</strong>for dynamic model experimentation.</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Neural-Network-Playground'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://neural-network-playground-arf8r3sule3ohwtbiydgxe.streamlit.app/'">
               Live Demo
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">ML</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-              Live Demo
-            </button>
-          </div>
-        </div>
+          
+        
+       
       </div>
     </div>
 
-    <!-- Project Three -->
+    <!-- Software Projects-->
     <div class="experience-details-container slider-project" data-categories="software" style="display: none;">
       <div class="about-containers">
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Software</h2>
+        <!-- Karma Programming Language -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">Karma Programming Language</h2>
+          <p class="experience-sub-content"><strong>Coordinated in a team of 5 members</strong> to develop a complete language <strong>compiler and debugger</strong> from scratch using <strong>Abstract Syntax Tree(AST) and Bytecode</strong>, implemented in <strong>Python</strong>. <br> Achieved execution of <strong>Euler 14</strong> problem for input size <strong>10<sup>5</sup>under 5 minutes</strong> and other 5 Euler problems requiring datatypes, variable declaration, conditionals, loops, and data structures.</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/dheera-01/compilers_project'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://dheera-01.github.io/compilers_project/'">
               Live Demo
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Software</h2>
+
+        <!-- KBC Game -->    
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">KBC Game</h2>
+          <p class="experience-sub-content">Designed a KBC game replica using <strong>Streamlit</strong>, featuring lifelines like <strong>"Audience Poll", "Power Paplu", "Double Dip", "5050", "Change the Question" and "Phone a Friend"</strong> highlighting technical and creative skills. <br> 
+            Utilized <strong>Python</strong> programming skills to implement the game logic, including question generation, answer validation, and scoring, ensuring an authentic KBC gameplay experience.</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/KBC-game.git'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://kbc-game-chirag25.streamlit.app'">
               Live Demo
             </button>
           </div>
         </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Software</h2>
+
+        <!-- Assembler and Disassembler -->
+        <div class="details-container color-container" >
+          <h2 class="experience-sub-title project-title">Assembler and Disassembler</h2>
+          <p class="experience-sub-content">Collaborated with a 4-member team to create a <strong>MIPS 32 Assembler and Disassembler</strong> using <strong>Python</strong>,enabling seamless conversion between <strong>assembly code and hexadecimal machine language.</strong> <br>
+          Specialized in developing the <strong>Disassembler</strong>component with a user friendly GUI developed using <strong>Tkinter</strong>, facilitating the conversion of machine language back to assembly code.</p>
           <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Project-Assembler-and-Disassembler'">
               Github
             </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+            <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/chirag-25/Project-Assembler-and-Disassembler'">
               Live Demo
-            </button>
+            </button> -->
           </div>
         </div>
       </div>
@@ -287,6 +307,7 @@
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
   </section>
 
+  <!-- Skills -->
   <section id="skills">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Skills</h1>
@@ -366,7 +387,7 @@
             <article>
               <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
               <div>
-                <h3>Flask</h3>
+                <h3>Verilog</h3>
                 <p>Basic</p>
               </div>
             </article>
@@ -418,6 +439,7 @@
     <!-- </div> -->
   </section>
 
+  <!-- Contact Information -->
   <section id="contact" style=" margin-top: 20px;">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
@@ -436,6 +458,8 @@
       </div>
     </div>
   </section>
+  
+  <!-- Footerˀ -->
   <footer>
     <nav>
       <div class="nav-links-container">
